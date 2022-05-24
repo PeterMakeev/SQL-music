@@ -20,7 +20,6 @@ CREATE TABLE IF NOT EXISTS Music_Track (
 	name_track VARCHAR (100) NOT NULL,
 	duration_track INTEGER NOT NULL,
 	album_id INTEGER REFERENCES Albums(id),
-	author_id INTEGER REFERENCES Authors(id)
 );
 
 CREATE TABLE IF NOT EXISTS Music_Genre (
