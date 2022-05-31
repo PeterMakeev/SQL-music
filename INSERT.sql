@@ -18,14 +18,15 @@ VALUES	(1, 'pop'),
 
 INSERT INTO AuthorsGenre(id, author_id, genre_id)
 VALUES	(1, 1, 1),
-	(2, 2, 2),
-	(3, 3, 3),
-	(4, 4, 4),
-	(5, 5, 5),
-	(6, 6, 1),
-	(7, 7, 2),
-	(8, 8, 3),
-    	(9, 9, 4);    
+		(2, 2, 2),
+		(3, 3, 3),
+		(4, 4, 4),
+		(5, 5, 5),
+		(6, 6, 1),
+		(7, 7, 2),
+		(8, 8, 3),
+		(9, 9, 4),
+		(10, 1, 2);    
 
 INSERT INTO Albums(id, name_album, date_album)
 VALUES	(1, 'album_name_1', '1992'),
@@ -64,7 +65,8 @@ VALUES	(1, 'track_1', 180, 1),
     	(12, 'track_12', 199, 3),
     	(13, 'track_13', 205, 1),
     	(14, 'track_14', 400, 5),
-    	(15, 'РјРѕР№_15', 123, 9);
+    	(15, 'мой_15', 123, 9),
+    	(16, 'track_16', 310, 1);
     	
 INSERT INTO Collection_Music(id, name_collection, date_collection)
 VALUES	(1, 'collection_1', '1999'),
